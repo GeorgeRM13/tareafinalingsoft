@@ -1,0 +1,21 @@
+<body>
+<form #consulta="ngForm" (ngSubmit)="insert(consulta.value)"> 
+    <div class="input box">
+    <h3> empresa </h3>
+    
+    <label for="ruc"> ruc:</label> &nbsp; 
+    <input type="text" name="ruc"><br> <br>
+
+    <label for="nombre"> nombre:</label> &nbsp; 
+    <input type="text" name="nombre"><br> <br>
+
+    <br>
+    <p>
+
+      <button name="Guardar" class="btn"> Ingresar </button> &nbsp; &nbsp; &nbsp;
+      <button name="Cancelar" class="btn" > Cerrar </button>
+    </p>
+  </div>
+
+</form>
+</body>

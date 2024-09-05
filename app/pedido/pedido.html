@@ -1,0 +1,26 @@
+<html >
+<head>
+  <title> Registro de pedido</title>
+</head>
+<body >
+  <form #pedido="ngForm" (ngSubmit)="insert(pedido.value)">
+    <div class="input box">
+      <h1> Registro de pedido </h1>
+      
+        <label for="id"> id:</label> &nbsp;
+        <input type="text" name="id"><br> <br>
+
+        <label for="Detalle"> Detalle:</label> &nbsp;
+        <input type="text" name="Detalle"><br> <br>
+
+      </div><br>
+      <p>
+
+        <button name="Guardar" class="btn"> Cerrar </button> &nbsp; &nbsp; &nbsp;
+        <button name="Cancelar" class="btn"> Registrar </button>
+      </p>
+    
+  </form>
+</body>
+
+</html>

@@ -1,0 +1,30 @@
+<html >
+<head>
+  <title> Registro de trabajador</title>
+</head>
+<body >
+  <form #pedido="ngForm" (ngSubmit)="insert(pedido.value)">
+    <div class="input box">
+      <h1> Registro de trabajador </h1>
+      
+        <label for="nombre"> nombre:</label> &nbsp;
+        <input type="text" name="nombre"><br> <br>
+
+        <label for="apellido"> apellido:</label> &nbsp;
+        <input type="text" name="apellido"><br> <br>
+
+        <label for="telefono"> telefono:</label> &nbsp;
+        <input type="text" name="telefono"><br> <br>
+
+
+      </div><br>
+      <p>
+
+        <button name="Guardar" class="btn"> Cerrar </button> &nbsp; &nbsp; &nbsp;
+        <button name="Cancelar" class="btn"> Registrar </button>
+      </p>
+    
+  </form>
+</body>
+
+</html>

@@ -1,0 +1,27 @@
+<body>
+  <form #registrar="ngForm" (ngSubmit)="insert(registrar.value)">
+    <div class="input box">
+      <h3> Registro de cliente </h3>
+      
+      <label for="nombre"> Nombre:</label> &nbsp; &nbsp; 
+      <input type="text" name="nombre" ngModel><br><br>
+  
+      <label for="apellido"> Apellido:</label> &nbsp; 
+      <input type="text" name="apellido" ngModel><br><br>
+  
+      <label for="usuario"> Usuario:</label> &nbsp; &nbsp; 
+      <input type="text" name="usuario" ngModel><br><br>
+  
+      <label for="contraseña"> Contraseña:</label> &nbsp; 
+      <input type="text" name="contraseña" ngModel>
+  
+      <br>
+      <p>
+  
+        <button type="submit" name="Guardar" class="btn"> Registrar </button> &nbsp; &nbsp; &nbsp;
+        <button type="submit" name="Cancelar" class="btn1"> Eliminar </button>
+      </p>
+    </div>
+  
+  </form>
+  </body>
